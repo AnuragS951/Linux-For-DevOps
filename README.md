@@ -1,2 +1,62 @@
 # Linux-For-DevOps
 Basic All  Linux Commands
+# Linux-For-DevOps-
+
+ # Navigation & Directory Management
+ 
+.pwd (Print Working Directory): Displays the absolute path of your current folder (e.g., /home/user).
+
+• ls: Lists the files and folders inside the current directory.
+
+  • ls -l: Shows detailed file information (permissions, size, owner).
+	
+  • ls -a: Displays hidden files (files starting with a dot .).
+
+  • cd (Change Directory): Moves you to a different folder.
+  
+  • cd ..: Moves up one directory level.
+	
+  • cd ~: Returns straight to your personal home directory.
+
+  • mkdir [directory_name]: Creates a brand new folder.
+
+  • rmdir [directory_name]: Deletes an empty folder.
+
+# File Operations
+• touch [file_name]: Creates a blank new file.
+
+• cat [file_name]: Displays the entire contents of a file right in your terminal.
+
+• cp [source] [destination]: Copies files or directories. (Use cp -r to copy folders recursively).
+
+• mv [source] [destination]: Moves or renames a file or folder.
+
+• rm [file_name]: Permanently deletes a file. (Use rm -r to delete a folder and all its contents).
+
+ 
+ # Searching & Text Filtering
+• grep "[pattern]" [file_name]: Searches for specific text or patterns inside a file.
+
+• find [path] -name "[file_name]": Locates files across your system by name.
+
+• head [file_name] / tail [file_name]: Previews the first or last 10 lines of a file.
+
+# Permissions & System Administration
+• sudo (Superuser Do): Runs commands with admin or root privileges.
+
+• chmod [permissions] [file_name]: Changes file read, write, and execute permissions.
+
+• chown [owner]:[group] [file_name]: Changes file or directory ownership.
+
+
+# System Information & Utilities
+
+• clear: Clears clutter off the terminal screen.
+
+• whoami: Displays the username of the account you are currently using.
+
+• df -h: Shows available and used disk space in an easy-to-read format.
+
+• top / htop: Opens a live task-manager view of running processes and system memory usage.
+
+• man [command]: Opens the manual/documentation page for any command so you can see all available options.
