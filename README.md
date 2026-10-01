@@ -1,6 +1,7 @@
 # Linux-For-DevOps
-Basic All  Linux Commands
-# Linux-For-DevOps-
+
+<b><h1> Basic All  Linux Commands </h1></b>
+
 
  # Navigation & Directory Management
  
